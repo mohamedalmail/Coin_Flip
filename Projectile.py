@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
+pip install matplotlib
 
 # Title
 st.title("🎯 Projectile Motion Simulator")
