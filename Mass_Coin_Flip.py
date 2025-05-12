@@ -26,5 +26,4 @@ total_tails = df["Tails"].sum()
 st.subheader("Overall Results")
 st.write(f"Total Heads: {total_heads}")
 st.write(f"Total Tails: {total_tails}")
-else:
-    st.warning("Select at least 1 person and 1 flip to run the simulation.")
+st.warning("Select at least 1 person and 1 flip to run the simulation.")
